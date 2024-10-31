@@ -9,7 +9,14 @@ public class App {
     //   I add more elements to your ArrayList. For example, I might add "Ruby" to the
     //   ArrayList and this should still work.
     public static void main(String[] args) throws Exception {
-    
+    ArrayList<String> languages = new ArrayList<>();
+    languages.add("Java");
+    languages.add("Python");
+    languages.add("JavaScript");
+
+    for(String s: languages) {
+        System.out.println(s);
+    }
 
     }
 }
